@@ -8,18 +8,18 @@
 
     <TextView
         android:id="@+id/position_text_view"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:visibility="gone"/>
-    <com.baidu.mapapi.map.MapView
-        android:id="@+id/bmapView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:clickable="true"
-        />
+        app:layout_constraintHorizontal_bias="0.501"
+        android:layout_marginRight="8dp" />
+
+    <!--<com.baidu.mapapi.map.MapView-->
+        <!--android:id="@+id/bmapView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:clickable="true" />-->
 
 </android.support.constraint.ConstraintLayout>
