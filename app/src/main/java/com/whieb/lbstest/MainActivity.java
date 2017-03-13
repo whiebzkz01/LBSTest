@@ -2,12 +2,15 @@ package com.whieb.lbstest;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.TextView;
 
 import com.baidu.location.LocationClient;
 
 public class MainActivity extends AppCompatActivity {
 
     public LocationClient mLocationClient;
+
+    private TextView textView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
